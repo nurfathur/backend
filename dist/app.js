@@ -37,6 +37,9 @@ app.use('/api/uploads', upload_routes_1.default);
 app.get('/health', (req, res) => {
     res.status(200).json({ status: 'ok', environment: process.env.NODE_ENV });
 });
+app.get('/', (req, res) => {
+    res.status(200).json({ message: 'Hello from the server!' });
+});
 // MongoDB connection with optimized options
 const MONGO_URI = process.env.MONGO_URI;
 const connectDB = async () => {
