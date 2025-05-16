@@ -6,7 +6,6 @@ yarn-debug.log
 .pnpm-debug.log
 
 # Build directories
-dist/
 build/
 
 # Environment variables
