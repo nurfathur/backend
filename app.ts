@@ -13,7 +13,7 @@ const app = express();
 
 // Define single CORS configuration
 const corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: 'https://uploadity.up.railway.app',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   preflightContinue: false,
   optionsSuccessStatus: 204
